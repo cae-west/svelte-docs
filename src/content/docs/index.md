@@ -7,7 +7,7 @@ hero:
   tagline: Learn how to build fast, modern web apps with Svelte and SvelteKit.
   actions:
     - text: Get Started
-      link: /getting-started/introduction/
+      link: /svelte-docs/getting-started/introduction/
       icon: right-arrow
       variant: primary
 ---
