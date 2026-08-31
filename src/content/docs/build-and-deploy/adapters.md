@@ -3,7 +3,6 @@ title: Adapters
 description: Understand SvelteKit's adapter system and how to deploy to any platform
 ---
 
-# Adapters
 
 SvelteKit is designed to run anywhere — Node.js servers, serverless platforms, static hosts, edge networks, and more. **Adapters** are plugins that take your build output and transform it for your specific target platform.
 

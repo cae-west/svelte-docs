@@ -3,7 +3,6 @@ title: Page Options
 description: Configure SSR, prerendering, and other page-level settings in SvelteKit
 ---
 
-# Page Options
 
 SvelteKit lets you configure how each page behaves — whether it renders on the server, prerenders to static HTML, or runs only in the browser. These options are set using `export const` in your `+page.js` or `+layout.js` files.
 

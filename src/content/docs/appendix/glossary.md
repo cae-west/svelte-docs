@@ -3,7 +3,6 @@ title: Glossary
 description: A comprehensive glossary of SvelteKit terminology, concepts, and technical terms
 ---
 
-# Glossary
 
 This glossary defines key terms and concepts used throughout SvelteKit. Use it as a reference when you encounter unfamiliar terminology in the documentation or codebase.
 

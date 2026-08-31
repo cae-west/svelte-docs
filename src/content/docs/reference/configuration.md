@@ -3,7 +3,6 @@ title: Configuration
 description: Complete reference for svelte.config.js configuration options
 ---
 
-# Configuration
 
 SvelteKit is configured through a `svelte.config.js` file at the root of your project. This page documents all available configuration options.
 

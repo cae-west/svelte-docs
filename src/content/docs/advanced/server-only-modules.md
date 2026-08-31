@@ -3,7 +3,6 @@ title: Server-Only Modules
 description: Understand the server/client boundary, protect secrets, and use server-only modules safely
 ---
 
-# Server-Only Modules
 
 SvelteKit runs on both the server and the client. Some code — like database queries, API keys, and file system access — should only run on the server. SvelteKit provides mechanisms to enforce this boundary and prevent sensitive code from leaking to the browser.
 

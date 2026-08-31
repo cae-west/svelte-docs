@@ -3,7 +3,6 @@ title: Command Line Interface
 description: Complete reference for SvelteKit CLI commands and options
 ---
 
-# Command Line Interface
 
 SvelteKit provides a command-line interface (CLI) for common development tasks. This page documents all available commands and their options.
 
@@ -61,14 +60,11 @@ npx svelte-kit sync
 **Example workflow:**
 
 ~~~bash
-# Create a new route
 mkdir src/routes/blog/[slug]
 echo '<h1>Blog Post</h1>' > src/routes/blog/[slug]/+page.svelte
 
-# Generate types
 npx svelte-kit sync
 
-# Now you can use types
 cat > src/routes/blog/[slug]/+page.ts << 'EOF'
 import type { PageLoad } from './$types';
 
@@ -86,7 +82,6 @@ Starts the development server with hot module replacement (HMR).
 
 ~~~bash
 npm run dev
-# or
 npx vite dev
 ~~~
 
@@ -100,19 +95,14 @@ npx vite dev
 **Examples:**
 
 ~~~bash
-# Start on default port
 npm run dev
 
-# Start on port 3000
 npx vite dev --port 3000
 
-# Expose to network
 npx vite dev --host
 
-# Open browser automatically
 npx vite dev --open
 
-# Combine options
 npx vite dev --host --port 3000 --open
 ~~~
 
@@ -137,7 +127,6 @@ Builds your application for production.
 
 ~~~bash
 npm run build
-# or
 npx vite build
 ~~~
 
@@ -150,13 +139,10 @@ npx vite build
 **Examples:**
 
 ~~~bash
-# Standard build
 npm run build
 
-# Build with source maps
 npx vite build --sourcemap
 
-# Build in development mode
 npx vite build --mode development
 ~~~
 
@@ -195,7 +181,6 @@ Previews the production build locally.
 
 ~~~bash
 npm run preview
-# or
 npx vite preview
 ~~~
 
@@ -208,13 +193,10 @@ npx vite preview
 **Examples:**
 
 ~~~bash
-# Preview on default port
 npm run preview
 
-# Preview on port 3000
 npx vite preview --port 3000
 
-# Expose to network
 npx vite preview --host
 ~~~
 
@@ -249,13 +231,10 @@ npx svelte-kit package
 **Examples:**
 
 ~~~bash
-# Package to default directory
 npx svelte-kit package
 
-# Package to custom directory
 npx svelte-kit package --dir dist
 
-# Watch mode for development
 npx svelte-kit package --watch
 ~~~
 
@@ -283,13 +262,10 @@ package/
 **Publishing:**
 
 ~~~bash
-# Package the library
 npx svelte-kit package
 
-# Navigate to package directory
 cd package
 
-# Publish to npm
 npm publish
 ~~~
 
@@ -393,29 +369,22 @@ You can set environment variables when running CLI commands:
 ### Development
 
 ~~~bash
-# Set environment variable
 PUBLIC_API_URL=https://api.example.com npm run dev
 
-# Use .env file (automatic)
-# Create .env file:
-# PUBLIC_API_URL=https://api.example.com
 npm run dev
 ~~~
 
 ### Build
 
 ~~~bash
-# Build with specific environment
 NODE_ENV=production npm run build
 
-# Build with custom variables
 PUBLIC_API_URL=https://api.example.com npm run build
 ~~~
 
 ### Preview
 
 ~~~bash
-# Preview with custom port
 PORT=3000 npm run preview
 ~~~
 
@@ -426,10 +395,8 @@ PORT=3000 npm run preview
 If you see "command not found" errors:
 
 ~~~bash
-# Install dependencies
 npm install
 
-# Or use npx
 npx svelte-kit sync
 npx vite dev
 ~~~
@@ -439,10 +406,8 @@ npx vite dev
 If the default port is in use:
 
 ~~~bash
-# Use a different port
 npm run dev -- --port 3000
 
-# Or kill the process
 lsof -ti:5173 | xargs kill -9  # macOS/Linux
 netstat -ano | findstr :5173    # Windows
 ~~~
@@ -452,10 +417,8 @@ netstat -ano | findstr :5173    # Windows
 If TypeScript types are missing:
 
 ~~~bash
-# Run sync manually
 npx svelte-kit sync
 
-# Or run check (which runs sync)
 npm run check
 ~~~
 
@@ -464,15 +427,12 @@ npm run check
 If the build fails:
 
 ~~~bash
-# Clean build directory
 rm -rf .svelte-kit
 rm -rf build
 
-# Reinstall dependencies
 rm -rf node_modules
 npm install
 
-# Try building again
 npm run build
 ~~~
 
@@ -481,13 +441,10 @@ npm run build
 If preview shows a blank page:
 
 ~~~bash
-# Make sure you've built first
 npm run build
 
-# Check adapter output
 ls -la build/  # or .vercel/output/, netlify/, etc.
 
-# Preview again
 npm run preview
 ~~~
 
@@ -519,13 +476,10 @@ export default defineConfig({
 Use different `.env` files for different environments:
 
 ~~~bash
-# .env.development
 PUBLIC_API_URL=http://localhost:3000
 
-# .env.production
 PUBLIC_API_URL=https://api.example.com
 
-# Build for production
 npm run build -- --mode production
 ~~~
 

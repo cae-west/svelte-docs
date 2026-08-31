@@ -3,7 +3,6 @@ title: Migrating to SvelteKit v2
 description: Step-by-step guide for upgrading from SvelteKit v1 to v2 with breaking changes and migration strategies
 ---
 
-# Migrating to SvelteKit v2
 
 SvelteKit v2 is a major release that includes breaking changes. This guide walks you through the migration process, covering all the changes you need to make to upgrade your application.
 

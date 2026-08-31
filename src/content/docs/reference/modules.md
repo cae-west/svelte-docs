@@ -3,7 +3,6 @@ title: Modules
 description: Complete reference for SvelteKit's built-in modules and their exports
 ---
 
-# Modules
 
 SvelteKit provides several built-in modules that give you access to framework functionality. These modules use the `$` prefix to distinguish them from your own code. This page documents all available modules and their exports.
 

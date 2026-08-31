@@ -3,7 +3,6 @@ title: Types
 description: Complete reference for TypeScript types in SvelteKit
 ---
 
-# Types
 
 SvelteKit provides comprehensive TypeScript support with generated types that ensure type safety throughout your application. This page documents all available types and how to use them.
 

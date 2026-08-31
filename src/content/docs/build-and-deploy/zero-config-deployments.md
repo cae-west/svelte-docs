@@ -3,7 +3,6 @@ title: Zero-Config Deployments
 description: Deploy your SvelteKit app to Vercel, Netlify, and Cloudflare with adapter-auto
 ---
 
-# Zero-Config Deployments
 
 SvelteKit makes deploying to popular platforms as simple as possible. With `adapter-auto`, you can deploy your app to Vercel, Netlify, or Cloudflare Pages without any configuration — just push your code and the platform handles the rest.
 

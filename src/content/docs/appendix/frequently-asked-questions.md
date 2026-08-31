@@ -3,7 +3,6 @@ title: Frequently Asked Questions
 description: Find answers to common questions about SvelteKit development, deployment, and troubleshooting
 ---
 
-# Frequently Asked Questions
 
 This page addresses the most common questions developers ask about SvelteKit. If your question isn't covered here, check the [official documentation](https://svelte.dev/docs/kit) or ask in the [Svelte Discord](https://svelte.dev/chat).
 

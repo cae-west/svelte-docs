@@ -3,7 +3,6 @@ title: Loading Data
 description: Learn how to fetch and load data for your SvelteKit pages using load functions
 ---
 
-# Loading Data
 
 Most applications need to load data from a database, API, or other source before rendering a page. SvelteKit provides a powerful `load` function that lets you fetch data and pass it to your page components.
 

@@ -3,7 +3,6 @@ title: Building Your App
 description: Learn how to build your SvelteKit app for production and preview the output
 ---
 
-# Building Your App
 
 So far, everything you've done has run in development mode using `npm run dev`. When you're ready to ship your application to production, you need to build it. This page covers the build process, what gets generated, and how to preview your build locally.
 
@@ -193,7 +192,6 @@ Tips for faster builds:
 Add a build step to your CI/CD pipeline:
 
 ~~~yaml
-# Example GitHub Actions workflow
 name: Build and Deploy
 on:
   push:

@@ -3,7 +3,6 @@ title: Introduction
 description: Learn what Svelte and SvelteKit are, why they matter, and what you'll build
 ---
 
-# Introduction
 
 Welcome to the Svelte documentation. This guide will teach you how to build fast, modern web applications with less code and better performance.
 

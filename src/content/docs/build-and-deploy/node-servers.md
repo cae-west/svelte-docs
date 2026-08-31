@@ -3,7 +3,6 @@ title: Node Servers
 description: Deploy your SvelteKit app to a traditional Node.js server using adapter-node
 ---
 
-# Node Servers
 
 If you need to run your SvelteKit app on a traditional Node.js server — whether on a VPS, a cloud VM, or in a Docker container — `adapter-node` is the adapter for you. It produces a standalone Node.js server that you can run with a single command.
 
@@ -211,7 +210,6 @@ Docker is a popular way to deploy Node.js apps. Here's a production-ready Docker
 ### Multi-Stage Build
 
 ~~~dockerfile
-# Build stage
 FROM node:20-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
@@ -219,7 +217,6 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-# Production stage
 FROM node:20-alpine
 WORKDIR /app
 COPY --from=builder /app/build build/
@@ -282,7 +279,6 @@ Useful PM2 commands:
 On Linux, you can use systemd:
 
 ~~~ini
-# /etc/systemd/system/my-app.service
 [Unit]
 Description=My SvelteKit App
 After=network.target
@@ -361,7 +357,6 @@ app.listen(3000);
 To scale your app horizontally, run multiple instances behind a load balancer:
 
 ~~~bash
-# Run 4 instances on different ports
 PORT=3001 node build &
 PORT=3002 node build &
 PORT=3003 node build &

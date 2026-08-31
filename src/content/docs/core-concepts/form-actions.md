@@ -3,7 +3,6 @@ title: Form Actions
 description: Handle form submissions and user input with server-side form actions
 ---
 
-# Form Actions
 
 Form actions let you handle form submissions with server-side code. They provide a progressive enhancement approach — forms work even without JavaScript, and you can enhance them with client-side interactivity.
 

@@ -3,7 +3,6 @@ title: Static Site Generation
 description: Build fully static sites with SvelteKit using adapter-static and prerendering
 ---
 
-# Static Site Generation
 
 SvelteKit can generate fully static HTML sites that can be hosted anywhere — GitHub Pages, Netlify, Cloudflare Pages, or even a plain web server. Static sites are fast, cheap to host, and work without a server.
 

@@ -3,7 +3,6 @@ title: Project Structure
 description: Understand the folder structure and key files in a SvelteKit project
 ---
 
-# Project Structure
 
 A typical SvelteKit project has the following structure:
 

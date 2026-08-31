@@ -3,7 +3,6 @@ title: Advanced Routing
 description: Master advanced routing techniques including rest parameters, optional parameters, matchers, route groups, and layout control
 ---
 
-# Advanced Routing
 
 SvelteKit's filesystem-based routing is simple to start with, but powerful enough for complex applications. This page covers advanced routing features that let you handle dynamic URLs, validate parameters, organize routes with groups, and control layout inheritance.
 

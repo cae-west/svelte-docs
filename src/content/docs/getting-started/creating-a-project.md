@@ -3,7 +3,6 @@ title: Creating a Project
 description: Learn how to scaffold and set up your first SvelteKit project
 ---
 
-# Creating a Project
 
 The easiest way to start building a SvelteKit app is to use the official CLI tool.
 

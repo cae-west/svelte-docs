@@ -3,7 +3,6 @@ title: Additional Resources
 description: Find more learning materials, community resources, tools, and examples to master SvelteKit
 ---
 
-# Additional Resources
 
 This page collects valuable resources for learning SvelteKit, connecting with the community, and finding inspiration for your projects. Whether you're looking for tutorials, example code, or ways to contribute, you'll find it here.
 

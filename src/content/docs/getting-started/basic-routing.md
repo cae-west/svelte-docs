@@ -3,7 +3,6 @@ title: Basic Routing
 description: Learn how SvelteKit's file-based routing system works
 ---
 
-# Basic Routing
 
 SvelteKit uses file-based routing, which means your application's routes are determined by the files and folders inside src/routes/.
 

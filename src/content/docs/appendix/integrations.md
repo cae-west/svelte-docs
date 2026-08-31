@@ -3,7 +3,6 @@ title: Integrations
 description: Learn how to integrate SvelteKit with popular tools, libraries, and services
 ---
 
-# Integrations
 
 SvelteKit is designed to work with the broader JavaScript ecosystem. This page covers how to integrate SvelteKit with popular tools, libraries, and services for CSS, authentication, databases, CMS, analytics, and more.
 

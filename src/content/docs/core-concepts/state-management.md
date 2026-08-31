@@ -3,7 +3,6 @@ title: State Management
 description: Share data across components using stores, context, and SvelteKit's built-in patterns
 ---
 
-# State Management
 
 As your application grows, you need ways to share data between components. Svelte provides several patterns for state management, from simple component state to global stores. SvelteKit adds its own patterns on top for page and layout data.
 

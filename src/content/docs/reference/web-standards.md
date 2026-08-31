@@ -3,7 +3,6 @@ title: Web Standards
 description: Reference for standard Web APIs used throughout SvelteKit
 ---
 
-# Web Standards
 
 SvelteKit is built on standard Web APIs rather than proprietary abstractions. This page documents the Web APIs you'll use most frequently when working with SvelteKit, including Request, Response, Headers, URL, fetch, and FormData.
 

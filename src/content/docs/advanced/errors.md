@@ -3,7 +3,6 @@ title: Errors
 description: Handle errors gracefully with the error function, error components, and error boundaries
 ---
 
-# Errors
 
 Every application encounters errors — invalid user input, failed API calls, database outages, and unexpected exceptions. SvelteKit provides a structured error handling system that lets you display meaningful error messages to users while logging details for debugging.
 

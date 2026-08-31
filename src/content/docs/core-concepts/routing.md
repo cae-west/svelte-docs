@@ -3,7 +3,6 @@ title: Routing
 description: Master SvelteKit's file-based routing system with dynamic routes, layouts, and advanced patterns
 ---
 
-# Routing
 
 SvelteKit uses a file-based routing system where the structure of your src/routes directory determines your application's routes. Every folder becomes a route segment, and special files like +page.svelte define what renders at that route.
 

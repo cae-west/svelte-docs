@@ -3,7 +3,6 @@ title: Hooks
 description: Intercept requests, handle errors, and customize the request lifecycle with server and client hooks
 ---
 
-# Hooks
 
 Hooks are functions that let you intercept and modify the request lifecycle at different stages. SvelteKit provides hooks for both server-side and client-side operations, giving you fine-grained control over authentication, logging, error handling, and request transformation.
 

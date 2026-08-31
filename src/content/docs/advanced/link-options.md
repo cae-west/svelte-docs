@@ -3,7 +3,6 @@ title: Link Options
 description: Control navigation behavior with data-sveltekit attributes for preloading, reloading, scrolling, and focus management
 ---
 
-# Link Options
 
 SvelteKit lets you customize how links and forms behave using `data-sveltekit-*` attributes. These attributes control preloading, full-page reloads, scroll behavior, focus management, and history handling — giving you fine-grained control over the user experience.
 
