@@ -56,6 +56,7 @@ export default defineConfig({
             { label: 'Migrating to v2', link: '/appendix/migrating-to-v2/' },
             { label: 'Additional Resources', link: '/appendix/additional-resources/' },
             { label: 'Glossary', link: '/appendix/glossary/' },
+            { label: 'Audit Report', link: '/appendix/audit-report/' },
           ],
         },
         {
