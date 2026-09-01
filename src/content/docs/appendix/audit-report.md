@@ -3,7 +3,6 @@ title: Audit Report
 description: Documentation audit and restructuring report
 ---
 
-# SvelteKit Documentation Audit Report
 
 ## Executive Summary
 
